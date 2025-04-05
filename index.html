@@ -4,15 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/styles.css" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+
     <title>AI Activity Generator</title>
   </head>
   <body>
     <div class="container">
       <header>
-        <h1>AI Activity Generator</h1>
+        <h1>AI Activity Idea Generator</h1>
       </header>
       <main>
-        <form>
+        <form id="activity-generator-form">
           <input
             type="text"
             placeholder="Enter a city you want to visit"
@@ -22,11 +24,7 @@
             class="instructions"
           /><input type="submit" class="button" />
         </form>
-        <div class="activity">
-          The options will go here<br />
-          The options will go here <br />
-          The options will go here
-        </div>
+        <div class="activity" id="activity"></div>
       </main>
       <footer>
         This AI project is coded by
