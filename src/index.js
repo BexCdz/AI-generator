@@ -8,6 +8,7 @@ function generateActivity(event) {
     autoStart: true,
     delay: 1,
     cursor: "",
+    pauseFor: 100000000,
   });
 }
 
