@@ -1,16 +1,8 @@
-html,
 body {
-  height: 100%;
   margin: 0;
   padding: 0;
   font-family: "Lato", sans-serif;
-}
-
-body {
-  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/162/310/original/travel1_generated.jpg?1743882809");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  background: #49beb7;
 }
 
 a {
@@ -18,7 +10,10 @@ a {
 }
 .container {
   margin: 120px auto;
+  padding: 30px;
   max-width: 600px;
+  background-color: #facf5a;
+  border-radius: 20px;
 }
 
 header {
@@ -35,8 +30,7 @@ h1 {
 
 form {
   padding: 30px;
-  background-color: rgba(255, 255, 255, 0.6);
-  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+
   border-radius: 10px;
   display: flex;
   margin-bottom: 30px;
@@ -44,7 +38,7 @@ form {
 
 .instructions {
   padding: 16px;
-  border: 1px solid rgba(39, 33, 66, 0.9);
+
   width: 80%;
   font-size: 16px;
   border-radius: 50px;
@@ -54,7 +48,7 @@ form {
 
 .button {
   margin-left: 10px;
-  background-color: #272044;
+  background-color: #ff5959;
   color: white;
   border: none;
   width: 150px;
@@ -64,16 +58,16 @@ form {
 }
 
 .activity {
-  font-size: 16px;
-  background-color: rgba(255, 255, 255, 0.9);
+  font-size: 18px;
+
   padding: 20px;
-  line-height: 1.2;
-  border-left: 3px solid #272044;
+  line-height: 1.5;
+  border-left: 3px solid #ff5959;
   box-shadow: 0px 4px 30px rgba(39, 33, 66, 0.03);
 }
 
 footer {
   text-align: centre;
   font-size: 13px;
-  margin-top: 260px;
+  margin-top: 60px;
 }
