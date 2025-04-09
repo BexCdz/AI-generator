@@ -19,6 +19,10 @@ function generateActivity(event) {
 
   let apiURL = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
+  let activityElement = document.querySelector("#activity");
+  activityElement.classList.remove("hidden");
+  activityElement.innerHTML = `<div class="blink">⌛ Generating ideas about ${instructionsInput.value}...</div>`;
+
   console.log("Generating ideas...");
 
   console.log(`Prompt: ${prompt}`);

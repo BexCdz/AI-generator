@@ -31,15 +31,23 @@ h1 {
   line-height: 1.5;
   color: white;
 }
-
-form {
-  padding: 30px;
+.form-container {
+  margin-bottom: 30px;
+  padding: 15px 20px;
 
   border-radius: 10px;
-  display: flex;
-  margin-bottom: 30px;
 }
 
+form {
+  display: flex;
+}
+
+.hint {
+  line-height: 1.5;
+  font-size: 12px;
+  opacity: 0.6;
+  margin-top: 5px;
+}
 .instructions {
   padding: 16px;
 
@@ -69,8 +77,28 @@ form {
   box-shadow: 0px 4px 30px rgba(39, 33, 66, 0.03);
 }
 
+.hidden {
+  display: none;
+}
+
 footer {
   text-align: centre;
   font-size: 13px;
   margin-top: 60px;
+}
+
+@-webkit-keyframes blinker {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.blink {
+  -webkit-animation-name: blinker;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: cubic-bezier(0.5, 0, 1, 1);
+  -webkit-animation-duration: 1.7s;
 }

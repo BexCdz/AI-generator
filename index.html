@@ -19,22 +19,26 @@
         <h1>AI Travel Activity Generator</h1>
         <h2>
           "Where will your adventure take you today? Enter a city and let’s find
-          the best things to do nearby!"🛩️
+          the best things to do nearby!"🚀
         </h2>
       </header>
       <main>
-        <form id="activity-generator-form">
-          <input
-            type="text"
-            placeholder="Enter a city..."
-            autofocus
-            required
-            autocomplete="off"
-            class="instructions"
-            id="user-instructions"
-          /><input type="submit" class="button" />
-        </form>
-        <div class="activity" id="activity"></div>
+        <div class="form-container">
+          <form id="activity-generator-form">
+            <input
+              type="text"
+              placeholder="Enter a city..."
+              autofocus
+              required
+              autocomplete="off"
+              class="instructions"
+              id="user-instructions"
+            /><input type="submit" class="button" />
+          </form>
+          <div class="hint">i.e: Barcelona, London, New York</div>
+        </div>
+
+        <div class="activity hidden" id="activity"></div>
       </main>
       <footer>
         This AI project is coded by
