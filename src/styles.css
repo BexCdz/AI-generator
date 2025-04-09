@@ -2,17 +2,21 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Lato", sans-serif;
-  background: #49beb7;
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/162/646/original/pexels-felkerpixel-6220559.jpg?1744221155");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 a {
-  color: #272044;
+  color: #b2b2b6;
 }
 .container {
-  margin: 120px auto;
-  padding: 30px;
+  margin: 100px auto;
+  padding: 20px;
+  padding-bottom: 300px;
   max-width: 600px;
-  background-color: #facf5a;
+  color: white;
   border-radius: 20px;
 }
 
@@ -25,7 +29,7 @@ h1 {
   font-weight: 800;
   font-size: 36px;
   line-height: 1.5;
-  color: #272044;
+  color: white;
 }
 
 form {
@@ -43,12 +47,11 @@ form {
   font-size: 16px;
   border-radius: 50px;
   line-height: 20px;
-  color: #272044;
 }
 
 .button {
   margin-left: 10px;
-  background-color: #ff5959;
+  background-color: #272044;
   color: white;
   border: none;
   width: 150px;
@@ -62,7 +65,7 @@ form {
 
   padding: 20px;
   line-height: 1.5;
-  border-left: 3px solid #ff5959;
+  border-left: 3px solid #272044;
   box-shadow: 0px 4px 30px rgba(39, 33, 66, 0.03);
 }
 
