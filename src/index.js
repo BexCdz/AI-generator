@@ -23,10 +23,6 @@ function generateActivity(event) {
   activityElement.classList.remove("hidden");
   activityElement.innerHTML = `<div class="blink">⌛ Generating ideas about ${instructionsInput.value}...</div>`;
 
-  console.log("Generating ideas...");
-
-  console.log(`Prompt: ${prompt}`);
-  console.log(`Context: ${context}`);
   axios.get(apiURL).then(displayActivity);
 }
 
